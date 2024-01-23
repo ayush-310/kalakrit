@@ -1,0 +1,76 @@
+/* animation class and keyframes */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+}
+
+.drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.imge {
+    height: 492px;
+    background-image: url(/landingPage/banner.jpg) !important;
+    background-color: #45acb9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 36.3rem;
+}
+
+.mr {
+    margin-right: 30rem;
+}
+
+.small {
+    /* image-rendering:  url("/landingPage/small_img.png"); */
+    padding: 15px 35px;
+    margin: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.small:hover {
+    box-shadow: 0px 0px 30px 5px orange;
+}
+
+.pos {
+    position: absolute;
+    left: 19rem;
+    top: 31rem;
+}
+
+.bdr {
+    border: 2px solid white;
+    padding: 18px;
+    border-radius: 26px;
+}
+
+.ss {
+    width: 16px;
+    color: #1cad7e;
+    font-size: 20px !important;
+    margin-right: 8px;
+}
+
+.pp {
+    width: 55%;
+    margin: auto;
+    position: relative;
+    top: -70px;
+}
